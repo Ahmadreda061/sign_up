@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style/sign_up.css" />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <section class="contuner">
+      <div class="contuner__left">
+        <div class="left__wrapper">
+          <div class="wrapper__header">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            <div class="header__list">
+              <img src="assets/images/icon-list.svg" alt="" />
+              <p>Product discovery and building what matters</p>
+            </div>
+            <div class="header__list">
+              <img src="assets/images/icon-list.svg" alt="" />
+              <p>Measuring to ensure updates are a success</p>
+            </div>
+            <div class="header__list">
+              <img src="assets/images/icon-list.svg" alt="" />
+              <p>And much more!</p>
+            </div>
+          </div>
+        </div>
+        <form action="" class="wrapper__form">
+          <p class="error-msg">Valid Email Required</p>
+
+          <label for="email">Email address</label>
+          <input type="text" placeholder="email@company.com" name="email" />
+          <button class="btn--darkBlue">Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+      <div class="contuner__right">
+        <img src="assets/images/illustration-sign-up-mobile.svg" alt="" />
+      </div>
+    </section>
+    <script src="script/sign_up.js"></script>
+  </body>
+</html>

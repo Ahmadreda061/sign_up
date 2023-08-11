@@ -1,0 +1,41 @@
+@import url(style.css);
+
+.contuner {
+  background-color: var(--neutralWhite);
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 150px;
+}
+.wrapper__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__header p span {
+  font-weight: 700;
+}
+.wrapper__header img {
+  align-self: flex-start;
+  margin-bottom: 30px;
+}
+.btn--darkBlue {
+  justify-self: flex-end;
+}
+
+@media only screen and (min-width: 650px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contuner {
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+  }
+}
